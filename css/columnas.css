@@ -10,16 +10,16 @@
     margin: auto;
     width: 100%;
     height: auto; 
-     /*para evitar otros elementos se coloquen dentro de una fila a causa de que las columnas estan flotando, utilizo los siguientes comandos  */
+     
     clear:both;
     display: table;  
 }
 
-[class*="col-"]{
+ [class*="col-"]{
     float: left;
     padding: 20px;
     /* border: solid 1px black; */
-}
+} 
 
 /*======================================
 PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
