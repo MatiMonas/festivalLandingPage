@@ -8,6 +8,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 
 .no-seleccionable{
@@ -104,7 +108,7 @@
     justify-content: center;
     text-shadow: -2px 2px 5px black;
     font-size: 3em;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
            
 }
 
@@ -178,40 +182,307 @@
     align-items: center;
     justify-content: center;
     padding: 50px;
+    
 }
 
+
+
+#nosotros{
+    position: relative;   
+    font-size: 6em;
+    color: #00fd5c;
+    width: 100%;
+    z-index: 2;
+    text-shadow: 4px 4px 3px black;    
+       
+}
+
+.contenedor-cards{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    transform: scale(0.9) skew(-10deg);
+    -webkit-transform:scale(0.9)  skew(-10deg);
+    -moz-transform:scale(0.9)  skew(-10deg);      
+}
+
+.contenedor-cards2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    transform: scale(0.9) skew(10deg);
+    -webkit-transform:scale(0.9)  skew(10deg);
+    -moz-transform:scale(0.9)  skew(10deg);      
+}
+
+.contenedor-cards h3{
+   transform: skew(2deg);
+   -webkit-transform: skew(2deg);
+   -moz-transform: skew(2deg);
+}
+
+.card-info{
+    width: 80%;
+    -webkit-box-shadow: 10px 8px 15px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 8px 15px 0px rgba(0,0,0,1);
+    box-shadow: 10px 8px 15px 0px rgba(0,0,0,1);
+    display: flex;
+    background-color:#171717;
+}
+
+.card-info h3{
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    padding:50px;
+    color:#2effbd
+}
+
+.card-info img{
+    width: 30%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 .portada2{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("../img/portada.jpg");
     background-position:top;    
     background-size: cover; 
-    
-    /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */       
+    margin: 10% 0;
+   
 }
 
 .opacar2{
     position: absolute;
     width: 100%;
-    height: 100%;    
-    background-color: rgba(4, 210, 224, 0.466);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    border: 10px;   
-} 
+    height: 100%;
+    background-color: rgba(3, 15, 26, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(0, 2, 2, 0.5);
+    backdrop-filter: blur(10px);
+    border: 10px;
+     
+}
 
-#nosotros{
-    position: absolute;
-    float: left;
-    font-size: 6em;
-    color: white;
-    width: 100%;
-    z-index: 2;
-    text-shadow: 1px 1px 2px black;
-    bottom: -129px;
-    
-    
+.contenedor-lineup{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-   
+
+.bandas{
+    margin: 4%
+}
+
+.contenedor-lineup h2{
+    position: absolute;
+    font-size: 11em;
+    font-family: 'Bungee Shade', cursive;
+    color: #ff27ff;
+    text-shadow: -3px 3px 5px black;
+    display: flex;    
+    align-items: center;
+    justify-content: center;  
+    top:0%;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+/* 
+.line-up{
+    margin-top: 8%;
+}
+
+
+.portada2{
+    position: absolute;
+} */
+/* .opacar2{
+    position: absolute;
+    width: 100%;
+    height: 139%;
+    background-color: rgba(8, 34, 58, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(4, 250, 250, 0.5);
+    backdrop-filter: blur(10px);
+    border: 10px;  
+} */
+/* } 
+.contenedor-imagen{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+} */
+/* .contenedor-imagen-bandas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+}
+.bandas{
+    width: 47%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .bandas{   
+    
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;  
+    position: absolute;
+    margin-top: 50px;   
+     
+    height: 90%;
+    z-index: 1;   
+} */
+/* 
+.portada2{
+    position: absolute;
+    z-index: 0;
+    background-image: url("../img/portada.jpg");
+    height: 100%;
+    width: 100%;
+} 
+
+ .opacar2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 34, 58, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(4, 250, 250, 0.5);
+    backdrop-filter: blur(10px);
+    border: 10px;  
+     
+}  */ 
+
+
+ 
+
+
+ 
+
+/* ============================
+SLIDESHOW
+=============================== */
+/* 
+#slide{
+    position: relative;
+    margin: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+#slide ul{
+    position: relative;
+    left: 0%;
+    margin: auto;
+    height: auto;
+    width: 400%;
+    clear: both;
+    display: table;
+}
+
+#slide ul li{
+    position: relative;
+    float: left;
+    width: 25%;
+
+}
+
+#slide ul li img{
+    width:100% ;
+    object-fit: cover;
+    object-position: center;
+}
+
+#slide #paginacion{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    bottom: 10px;
+    left: 0;
+    z-index: 1;
+}
+
+#slide #paginacion li{
+    display: inline-block;
+    margin: 0px 5px;
+    cursor: pointer;
+    opacity: .5;
+    color: white;
+    text-shadow: 0px 0px 5px #333;
+}
+
+#slide #indicadores li:first-child{
+    opacity: 1;
+
+}
+
+#slide .flechas{
+    position: absolute;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#slide #retroceder{
+    top: 45%;
+    left: 2%;
+}
+
+#slide #avanzar{
+    top: 45%;
+    right: 2%;
+}
+
+#slide ul li .caption{
+    position:absolute;
+    width: 100%;
+    bottom: 40px;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+
+#slide ul li .caption{
+    background: rgba(0,0,0,.5);
+    padding: 5px 0;
+}
+
+#slide ul li .caption{
+    background: rgba(0,0,0,.5);
+    padding-bottom: 10px;
+
+} */

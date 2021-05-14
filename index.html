@@ -17,8 +17,11 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./img/icono.png" />
-  </head>
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+
+  </head>  
   <body>
+
     <header>
       <nav class="navbar">
         <div class="contenedor">
@@ -27,10 +30,10 @@
               <!-- <h2 id="logo" class="col-lg-6">VEGGIEPALOOZA</h2> -->
 
               <ul class="lista-navegacion col-lg-3">
-                <a href=""><li>Inicio</li></a>
-                <a href=""><li>Nosotros</li></a>
-                <a href=""><li>Line-up</li></a>
-                <a href=""><li>Comidas</li></a>
+                <a href="#logotipo"><li>Inicio</li></a>
+                <a href="#nosotros"><li>Nosotros</li></a>
+                <a href="#line-up"><li>Line-up</li></a>
+                <a href="#"><li>Comidas</li></a>
               </ul>
             </div>
           </div>
@@ -55,23 +58,66 @@
        
             <div class="fila btn">
                 <button id="btn-comprar" class="col-lg-12"><b>COMPRAR</b></button>
-            </div>
-        
-            
+            </div>     
+       </div>
+    </header>
+    
+    <section class="informacion">     
+        <div class="contenedor">
+          <div class="fila">
+              <h2 id="nosotros" class="col-lg-12 info">¿QUIENES SOMOS?</h2>          
           </div>
         </div>
-      </div>
-      
-    </header>
 
-    <div class="portada2">
-      <div class="opacar2"></div>      
-      <div class="contenedor">
-        <div class="fila">
-            <h2 id="nosotros" class="col-lg-12 info">¿QUIENES SOMOS?</h2>
-         
+
+        <div class="contenedor-cards">
+          <div class="card-info"> 
+            <img src="./img/imagen2-recital.jpg" alt="">
+            <h3>EL UNICO Y POR ESO MÁS GRANDE FESTIVAL ECO FRIENDLY </h3>
+          </div>
+        </div>
+
+        <div class="contenedor-cards2">
+          <div class="card-info">             
+            <h3><i>ELEGIDOS POR TUS BANDAS FAVORITAS DE TODO EL MUNDO</i></h3>
+            <img src="./img/imagen1-mono.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="contenedor-cards">
+          <div class="card-info"> 
+            <img src="./img/imagen3-patio.jpg" alt="">
+            <h3> NUESTRA GASTRONOMIA ES 100% VEGANA Y NUTRITIVA </h3>
+          </div>
+        </div>   
+    </section>
+
+    <section id="line-up">
+      <div class="portada2">
+        <div class="opacar2"></div>
+        
+        <div class="contenedor-lineup">
+          <h2>LINE UP</h2>
+          <div class="bandas"><img src="./img/GeneratedFestivalPoster (3).png" alt=""></div>
+        </div>
+      </div>    
+    </section>
+
+    <section class="comidas">      
+    </section>
+
+    
+    <footer>
+      <div class="contenedor-media">
+          <p><u>Media</u></p>
+        
+        <div class="contenedor-iconos">
+          <a href="" style="color: white;"><i class="fab fa-facebook"></i></a>
+          <a href="" style="color: white;"><i class="fab fa-twitter"></i></a>
+          <a href="" style="color: white;"><i class="fab fa-instagram"></i></a>
+          <a href="" style="color: white;"><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
