@@ -69,17 +69,22 @@ html{
     background-color: #fee31a;
     height: 60px;
     align-items: center;
-    border-radius: 5px 5px 5px 5px;       
+    border-radius: 5px 5px 5px 5px;
+       
+     
 }
 
 .lista-navegacion li{
     margin:5px;
     color: #000000;  
+    transition: 0.6s
 }
 
 .lista-navegacion li:hover{
     color:#2effbd;
     cursor:pointer;
+    transition: 0.2s;
+    
 }
 
 .portada{
@@ -105,9 +110,9 @@ html{
     font-size: 8em;
     margin-bottom: 0%;
     margin-top: 5%;    
-  
-    
 }
+
+
 
 #subtitulo{    
     position: relative;
@@ -201,7 +206,7 @@ html{
     color: #00fd5c;
     width: 100%;
     z-index: 2;
-    text-shadow: 4px 4px 3px black;    
+    text-shadow: 8px 4px 3px black;    
        
 }
 
