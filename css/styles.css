@@ -219,7 +219,7 @@ html{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     transform: scale(0.9) skew(-10deg);
     -webkit-transform:scale(0.9)  skew(-10deg);
     -moz-transform:scale(0.9)  skew(-10deg);      
@@ -233,7 +233,7 @@ html{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     transform: scale(0.9) skew(10deg);
     -webkit-transform:scale(0.9)  skew(10deg);
     -moz-transform:scale(0.9)  skew(10deg);      
@@ -248,7 +248,7 @@ html{
 .card-info{
     width: 80%;
     height: 253px;
-    margin: 2%;
+    margin: 1%;
     -webkit-box-shadow: 10px 8px 15px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 8px 15px 0px rgba(0,0,0,1);
     box-shadow: 10px 8px 15px 0px rgba(0,0,0,1);
