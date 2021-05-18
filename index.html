@@ -17,23 +17,19 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./img/icono.png" />
-    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
-
-  </head>  
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css" />
+  </head>
   <body>
-
     <header>
+      
       <nav class="navbar">
         <div class="contenedor">
           <div class="fila">
-            <div class="contenedor-nav">
-              <!-- <h2 id="logo" class="col-lg-6">VEGGIEPALOOZA</h2> -->
-
+            <div class="contenedor-nav">             
               <ul class="lista-navegacion col-lg-3">
-                <a href="#logotipo" style="color: #000000;"><li>Inicio</li></a>
-                <a href="#nosotros" style="color: #000000;"><li>Nosotros</li></a>
-                <a href="#line-up" style="color: #000000;"><li>Line-up</li></a>
-                <a href="#" style="color: #000000;"><li>Comidas</li></a>
+                <a href="#logotipo" style="color: #000000"><li>Inicio</li></a>
+                <a href="#nosotros" style="color: #000000"><li>Nosotros</li></a>
+                <a href="#line-up" style="color: #000000"><li>Line-up</li></a>
               </ul>
             </div>
           </div>
@@ -42,6 +38,7 @@
 
       <div class="portada">
         <div class="opacar"></div>
+        
         <div class="fila">
           <h1 id="logotipo" class="titulo no-seleccionable col-lg-12">
             VEGGIEPALOOZA
@@ -53,70 +50,89 @@
             DEL 27 AL 29 DE AGOSTO
           </p>
         </div>
-        
-          
-       
-            <div class="fila btn">
-                <button id="btn-comprar" class="col-lg-12"><b>COMPRAR</b></button>
-            </div>     
-       </div>
+
+        <div class="fila btn">
+          <a href="#formulario"><button id="btn-comprar" class="col-lg-12">
+              <b>COMPRAR</b>
+            </button></a>
+        </div>
+
+      </div>
     </header>
-    
-    <section class="informacion">     
+
+    <section class="informacion">
+      <div class="contenedor-principal-cartas">
+        
         <div class="contenedor">
           <div class="fila">
-              <h2 id="nosotros" class="col-lg-12 info">¿QUIENES SOMOS?</h2>          
+            <h2 id="nosotros" class="col-lg-12 info">¿QUIENES SOMOS?</h2>
           </div>
         </div>
 
-
         <div class="contenedor-cards">
-          <div class="card-info"> 
-            <img src="./img/imagen2-recital.jpg" alt="">
-            <h3>EL ÚNICO Y POR ESO MÁS GRANDE FESTIVAL ECO FRIENDLY </h3>
+          <div class="card-info">
+            <img src="./img/imagen2-recital.jpg" id="formatear" alt="" />
+            <h3>EL ÚNICO Y POR ESO MÁS GRANDE FESTIVAL ECO FRIENDLY</h3>
           </div>
         </div>
 
         <div class="contenedor-cards2">
-          <div class="card-info">             
+          <div class="card-info">
             <h3><i>ELEGIDOS POR TUS BANDAS FAVORITAS DE TODO EL MUNDO</i></h3>
-            <img src="./img/imagen1-mono.jpg" alt="">
+            <img src="./img/imagen1-mono.jpg" alt="" />
           </div>
         </div>
 
         <div class="contenedor-cards">
-          <div class="card-info"> 
-            <img src="./img/imagen3-patio.jpg" alt="">
-            <h3> NUESTRA GASTRONOMIA ES 100% VEGANA Y NUTRITIVA </h3>
+          <div class="card-info">
+            <img src="./img/imagen3-patio.jpg" alt="" />
+            <h3>NUESTRA GASTRONOMIA ES 100% VEGANA Y NUTRITIVA</h3>
           </div>
-        </div>   
+        </div>
+
+      </div>
     </section>
 
     <section id="line-up">
       <div class="portada2">
         <div class="opacar2"></div>
-        
+
         <div class="contenedor-lineup">
           <h2>LINE UP</h2>
-          <div class="bandas"><img src="./img/GeneratedFestivalPoster.png" alt=""></div>
+          
+          <div class="bandas">
+            <img src="./img/GeneratedFestivalPoster.png" alt="" />
+          </div>
         </div>
-      </div>    
+      </div>
     </section>
 
-    <section class="comidas">      
+    <section id="formulario">
+      <div class="contenedor-formulario">
+        <div class="caja-formulario">
+          <h4>Reserve su entrada hoy</h4>
+          <form action="comprar" id="form">
+            <label for="nombre" class="nombre">Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre" class="input1" />
+            <label for="apellido" class="nombre">Apellido:</label>
+            <input type="text" placeholder="Ingrese su apellido" class="input2"/>
+            <div class="contenedor-btn-comprar col-lg-12">
+              <input type="button" value="COMPRAR" class="btn-formulario" />
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
 
-    
     <footer>
       <div class="contenedor-media">
-          <p><u>Media</u></p>
-        
-        <div class="contenedor-iconos">
-          <a href="#" style="color: white;"><i class="fab fa-facebook"></i></a>
-          <a href="#" style="color: white;"><i class="fab fa-twitter"></i></a>
-          <a href="#" style="color: white;"><i class="fab fa-instagram"></i></a>
-          <a href="#" style="color: white;"><i class="fab fa-linkedin-in"></i></a>
-        </div>
+        <p><u>Veggiepalooza 2021 © TODOS LOS DERECHOS RESERVADOS</u></p>
+        <!-- <div class="contenedor-iconos">
+          <a href="#" style="color: white"><i class="fab fa-facebook"></i></a>
+          <a href="#" style="color: white"><i class="fab fa-twitter"></i></a>
+          <a href="#" style="color: white"><i class="fab fa-instagram"></i></a>
+          
+        </div> -->
       </div>
     </footer>
   </body>
