@@ -1625,6 +1625,10 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
          
     }
     
+    #line-up{
+        margin: -6px;
+    }
+
     .contenedor-lineup{
         position: relative;
         display: flex;
@@ -1661,6 +1665,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         background-image: url("../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
         background-size:cover;
         background-position:center;
+        margin: -13%;
     }
     
     .contenedor-formulario{
@@ -1674,7 +1679,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     
     .caja-formulario{
         border: 1px solid black;
-        height: 49vh;
+        margin: 10%;
         width: 100%;
         display: flex;
         align-items: center;
