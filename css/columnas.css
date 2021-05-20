@@ -1345,14 +1345,6 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     
     
     
-    body{
-        position: relative;
-        width: 100%;
-        
-        background-image: url("../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
-        
-        
-    }
     
     html{
         scroll-behavior: smooth;
