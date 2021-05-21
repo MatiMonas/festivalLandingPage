@@ -1345,15 +1345,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     
     
     
-    body{
-        position: relative;
-        width: 100%;
-        
-        background-image: url("../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
-        background-size:cover;
-        background-position: center; 
-        
-    }
+   
     
     html{
         scroll-behavior: smooth;
@@ -1524,6 +1516,21 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         
     }
     
+    .informacion{
+        position: relative;
+        width: 100%;
+        
+        background-image: url("../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
+        background-size:cover;
+        background-position: center;
+        
+    }
+    .contenedor-principal-cartas{
+        margin-bottom: -1%
+    }
+    .contenedor-informacion-cards{
+        height: auto;
+    }
     
     #nosotros{
         position: relative;
@@ -1532,6 +1539,8 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         width: 100%;
         z-index: 2;
         text-shadow: 3px 1px 2px black;
+        margin-bottom:-6%;
+        margin-top: -5%;
            
     }
     
@@ -1596,7 +1605,9 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         object-position: center;
     }
     
-    
+    #line-up{
+        margin-bottom: -11%;
+    }
     .portada2{
         position: relative;
         width: 100%;
@@ -1604,7 +1615,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         background-image: url("../img/portada.jpg");
         background-position:top;    
         background-size: cover; 
-        margin: 10% 0;
+        
        
     }
     
@@ -1650,11 +1661,19 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         top: 37%;
     }
     
-   
+   #formulario{
+    position: relative;
+    
+    
+    background-image: url("../img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
+    background-size:cover;
+    background-position:bottom
+       
+   }
     
     
     .contenedor-formulario{
-        height: 50vh;
+        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1663,7 +1682,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     
     .caja-formulario{
         border: 1px solid black;
-        height: 49vh;
+        height: auto;
         width: 100%;
         display: flex;
         align-items: center;
@@ -1672,6 +1691,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         flex-wrap: nowrap;
         box-shadow: 5px 3px 5px 1px grey;
         background-color: #171717;
+        margin: 50% 0;
     }
     
     .contenedor-formulario h4{
@@ -1736,7 +1756,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         color: black;
         font:inherit;
         background-color:#fee31a;
-        font-size: 1em;
+        font-size: 0.6em;
         border-radius: 5px;
         margin-bottom: 2em;
         border: none;
@@ -1763,6 +1783,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         padding: 60px 20px;
         color: white;
         text-align: center;
+        margin-top: -10%;
     }
 
     .footer-p{
