@@ -1667,6 +1667,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     background-size:cover;
     background-position:bottom;
     background-repeat: no-repeat;
+    transform: rotate(180deg);
        
    }
     
@@ -1691,6 +1692,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         box-shadow: 5px 3px 5px 1px grey;
         background-color: #171717;
         margin: 50% 0;
+        transform: rotate(180deg);
     }
     
     .contenedor-formulario h4{
